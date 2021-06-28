@@ -10,7 +10,7 @@ OTEL_METRICS_EXPORTER=none OTEL_EXPORTER_OTLP_ENDPOINT="http://<IP of SigNoz>:43
 ```
 *Download the latest version of [opentelemetry-javaagent-all.jar](https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent-all.jar)*
 
-Now, play around with spring app at `http://localhost:8090` to generate some telemetry data and then see them at `http://<IP of SigNoz>:3000`
+Now, play around with the spring app at `http://localhost:8090` to generate some telemetry data and then see them at `http://<IP of SigNoz>:3000`
 
 # Further reads about the application
 
