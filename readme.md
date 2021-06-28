@@ -8,7 +8,7 @@ cd spring-petclinic
 
 OTEL_METRICS_EXPORTER=none OTEL_EXPORTER_OTLP_ENDPOINT="http://<IP of SigNoz>:4317" OTEL_RESOURCE_ATTRIBUTES=service.name=javaApp java -javaagent:/path/to/opentelemetry-javaagent-all.jar -jar target/*.jar
 ```
-*Download the latest version of (opentelemetry-javaagent-all.jar)[https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent-all.jar]*
+*Download the latest version of [opentelemetry-javaagent-all.jar](https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/latest/download/opentelemetry-javaagent-all.jar)*
 
 Now, play around with spring app at `http://localhost:8090` to generate some telemetry data and then see them at `http://<IP of SigNoz>:3000`
 
